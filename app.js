@@ -43,9 +43,10 @@ function isBoardFull() {
       if (board[i][j] !== 'X' && board[i][j] !== 'O') {
         return false;
       }
-    }
+
   }
   return true;
+}
 }
 
 // Funktion zur Überprüfung des Gewinners
